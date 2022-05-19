@@ -1,0 +1,40 @@
+/* .box {
+  background-color: aqua;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  text-align: center;
+
+
+} */
+.center {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  text-align: center;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20%;
+  align-items: center;
+  margin-top: 10px;
+  display: block;
+  justify-content: center;
+  margin-right: 2px;
+
+}
+
+.sub-one {
+  background-color: #807c6f;
+}
+
+
+
+/* Add some padding inside the card container */
+.containe {
+  padding: 16px;
+  /* margin-left: 10px; */
+}

@@ -1,0 +1,174 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300';
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: inherit;
+    /* padding: 10vh 0 0 0; */
+    font-size: 12px;
+}
+
+/* .container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 2em;
+} */
+
+.row {
+    width: 100%;
+    text-align: center;
+}
+
+/* .column {
+    width: 30%;
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+} */
+
+/* .column a {
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 0;
+    background: #7bbae0;
+    margin: 7px 0;
+    cursor: pointer;
+}
+
+.column a p {
+    display: block;
+
+    text-align: center;
+    transition: ease .35s;
+    opacity: 1;
+    ;
+}
+
+.column a:hover p {
+    opacity: 0;
+}
+
+.column a span {
+    dispay: block;
+    text-align: center;
+    transition: ease .35s;
+    opacity: 0;
+} */
+
+/* .column a:hover span {
+	opacity: 1;
+} */
+.prof-icon {
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    background-color: #0a334d;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+}
+
+.class-table {
+    background-color: black;
+    height: 80px;
+    width: 300px;
+    align-self: center !important;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.class-table p {
+    color: white;
+    margin-right: 10px;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+}
+
+
+
+
+.cardsList {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cardOne {
+    margin: 30px auto;
+    width: 200px;
+    height: 150px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+
+.cardOne .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+}
+
+.cardOne .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.cardOne .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -100px;
+    height: 40px;
+    color: black;
+}
+
+.cardOne:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+        -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+.title-white {
+    color: white;
+}
+
+.title-black {
+    color: black;
+}
+
+@media all and (max-width: 500px) {
+    .card-list {
+        /* On small screens, we are no longer using row direction but column */
+        flex-direction: column;
+    }
+}
