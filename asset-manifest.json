@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/classRooom-management/static/css/main.6e8ecd9d.css",
+    "main.js": "/classRooom-management/static/js/main.e5246ff4.js",
+    "static/media/book.png": "/classRooom-management/static/media/book.8a2a68445fd7a7ed8d2e.png",
+    "static/media/prof.png": "/classRooom-management/static/media/prof.5faf09a7795d28bf5a2b.png",
+    "index.html": "/classRooom-management/index.html",
+    "main.6e8ecd9d.css.map": "/classRooom-management/static/css/main.6e8ecd9d.css.map",
+    "main.e5246ff4.js.map": "/classRooom-management/static/js/main.e5246ff4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e8ecd9d.css",
+    "static/js/main.e5246ff4.js"
+  ]
+}
